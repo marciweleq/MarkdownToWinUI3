@@ -22,8 +22,13 @@ namespace MarkdownToWinUi3.MdToWinUi
             if (settings == null) settings = MdSettings.DefaultSettings;
 
             var stackPanel = new StackPanel();
+            string[] lines;
+            if (markdownText.Contains('\n'))
+                lines = markdownText.Split('\n');
+            else
+                lines = new string[1] { markdownText };
 
-            foreach (var line in markdownText.Split('\n'))
+            foreach (var line in lines)
             {
                 var textLine = line;
                 var textBlock = new TextBlock();
