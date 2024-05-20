@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MarkdownToWinUi3 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MarkdownToWinUi3 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
