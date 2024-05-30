@@ -22,7 +22,9 @@ namespace MarkdownToWinUi3.MdToWinUi
             if (settings == null) settings = MdSettings.DefaultSettings;
 
             var stackPanel = new StackPanel();
+            stackPanel.Spacing = 1;
             string[] lines;
+            markdownText = markdownText.Replace("\r", "");
             if (markdownText.Contains('\n'))
                 lines = markdownText.Split('\n');
             else
