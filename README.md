@@ -1,7 +1,7 @@
 # Markdown To WinUI3
 
 > [!IMPORTANT]  
-> Markdown To WinUI 3 is still in development.
+> Markdown To WinUI 3 is still in development. Only some of markdown syntaxes are supported for now.
 
 Markdown To WinUI 3 is a lightweight and efficient project designed to render Markdown content into WinUI3 applications. It aims to bridge the gap between markdown documents and Win UI3 apps.
 
