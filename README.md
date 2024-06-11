@@ -54,7 +54,7 @@ Markdown To WinUI 3 supports only some of markdown syntaxes for now. Below is a 
 | `^superscript^`                                                          | Superscript (extension) |      ❌     |
 | `~subscript~`                                                            | Subscript (extension)   |      ❌     |
 | `:emoji:`                                                                | Emoji (extension)       |      ❌     |
-| Footnote                                                                 | Footnote (extension)    |      ❌     |
+| `[^Footnote]`                                                            | Footnote (extension)    |      ❌     |
 
 
 ## Contributing
